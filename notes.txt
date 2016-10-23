@@ -1,0 +1,35 @@
+https://github.com/johnpapa/pluralsight-gulp
+https://nodejs.org/
+https://www.npmjs.com/
+http://gulpjs.com/
+http://bower.io/
+http://jshint.com/docs
+http://catatron.com/node-jscs
+
+Only 4 APIs:
+gulp.task - define a task
+gulp.src - read files
+gulp.dest - write the files
+gulp.watch - watch the files
+
+project instructions:
+install node, npm
+npm install -g gulp bower
+npm install --save-dev gulp
+
+npm install gulp-jshint gulp-jscs gulp-util gulp-print gulp-if gulp-load-plugins yargs jshint-stylish --save-dev
+Article on Enforcing Coding Rules on your team with JSCS: https://yannick.cr/posts/enforcing-coding-rules-in-your-team-with-jscs/post
+Atom Plugin: https://atom.io/packages/linter-jscs
+Sublime Plugin: https://github.com/SublimeLinter/SublimeLinter-jscs/
+Team City Reporter: https://github.com/wurmr/jscs-teamcity-reporter
+Presets: http://jscs.info/overview#presets
+Gulp Task - https://github.com/jscs-dev/gulp-jscs/
+
+Overcommit Git pre-commit hook manager: https://github.com/brigade/overcommit/
+Customizing Git Hooks: http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
+
+gulp-if: runnng gulp vet will toggle off line with args, gulp vet --verbose
+
+CSS:
+npm install --save-dev gulp-less gulp-autoprefixer
+https://github.com/postcss/autoprefixer
